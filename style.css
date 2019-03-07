@@ -1,0 +1,17 @@
+#container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+}
+div {
+    width:75%;
+    background-color: blueviolet;
+}
+div.first{
+background-color: dodgerblue;
+height: 24px;
+transition:  height .5s ease-out;
+}
+div.first:hover{
+    height:50px;
+}
